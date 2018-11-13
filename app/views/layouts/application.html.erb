@@ -10,6 +10,21 @@
   </head>
 
   <body>
+  <div class="navbar-wagon">
+    <!-- Logo -->
+    <%= link_to "Wikinomics", articles_path%>
+    <!-- Right Navigation -->
+     <div class="navbar-wagon-right hidden-xs hidden-sm">
+    <%= link_to "New Articles", new_article_path%>
+  </div>
+
+
+  </div>
+
+
+
     <%= yield %>
   </body>
 </html>
+
+
